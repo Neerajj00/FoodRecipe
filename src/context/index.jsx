@@ -7,9 +7,8 @@ export default function GlobalState({ children }) {
     const [data , setData] = useState([]);
     const [loading,setLoading] = useState(false);
     const [error,setError] = useState(null);
+    const [favorites , setFavorites] = useState([]);
 
-
-    console.log(data);
     async function handleSubmit(){
         try{
             setLoading("true");
@@ -30,7 +29,7 @@ export default function GlobalState({ children }) {
     }
 
     return (
-        <GlobalContext.Provider value={{search , setSearch , handleSubmit , loading , error , data}}>
+        <GlobalContext.Provider value={{search , setSearch , handleSubmit , loading , error , data , setFavorites , favorites}}>
             {children}
         </GlobalContext.Provider>
     )

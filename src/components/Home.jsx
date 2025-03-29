@@ -24,13 +24,13 @@ function Home() {
     )
   }
 
-  console.log(data);
   return (
     <div className="w-full min-h-screen bg-gray-200 p-6">
       {data && data.length > 0 ? (
         <div className="grid grid-cols-4 gap-7">
           {data.map((item) => (
             <RecipeCard
+              id={item.id}
               key={item.id}
               title={item.title}
               image_url={item.image_url}

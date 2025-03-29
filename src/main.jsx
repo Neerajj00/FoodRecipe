@@ -1,10 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import App from './App.jsx'
 import Home from './components/Home.jsx'
 import Favourites from './components/Favourites.jsx'
+import Recipe from './components/RecipeDetails.jsx'
 import GlobalState from './context/index.jsx'
 
 const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: '/Favourites',
         element: <Favourites />
+      },
+      {
+        path: '/Recipe/:id',
+        element: <Recipe/>
       }
     ]
   }

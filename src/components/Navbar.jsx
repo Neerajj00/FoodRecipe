@@ -5,7 +5,6 @@ import { GlobalContext } from "../context";
 
 const Navbar = () => {
   const {search , setSearch , handleSubmit} = useContext(GlobalContext);
-  console.log(search)
 
     return (
       <nav className="flex justify-between items-center p-4 bg-gray-950 text-white shadow-lg">
