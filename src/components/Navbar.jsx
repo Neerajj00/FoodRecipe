@@ -34,7 +34,7 @@ const Navbar = () => {
         
         {/* Navigation Links */}
         <ul className="flex space-x-6 text-lg">
-          <li><NavLink to="/Favourites" className="hover:text-blue-400 transition">Favourites</NavLink></li>
+          <li><NavLink to="/Favorites" className="hover:text-blue-400 transition">Favorites</NavLink></li>
           <li><NavLink to="/" className="hover:text-blue-400 transition">Home</NavLink></li>
         </ul>
       </nav>
