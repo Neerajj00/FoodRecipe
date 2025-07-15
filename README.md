@@ -1,5 +1,7 @@
 # FoodRecipe
 
+🚀 **[Live Demo](https://food-recipe-alpha-plum.vercel.app/)** - Try the app now!
+
 A simple React application created to learn and practice React fundamentals. The app allows users to fetch food recipes from an API, view details, and add recipes to their favorites.
 
 ## Features
