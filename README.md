@@ -2,6 +2,10 @@
 
 A simple React application created to learn and practice React fundamentals. The app allows users to fetch food recipes from an API, view details, and add recipes to their favorites.
 
+## Live Demo
+
+[https://food-recipe-alpha-plum.vercel.app/](https://food-recipe-alpha-plum.vercel.app/)
+
 ## Features
 
 - Fetch food recipes from an external API.
